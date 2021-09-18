@@ -53,7 +53,7 @@ export const AppHeader: React.FC = () => {
         </Header.Link>
       </Header.Item>
       <Header.Item mr={4}>
-        <Header.Link href={"mailto:milan.patel@alumni.emory.edu"}>
+        <Header.Link href={"mailto:contact@thempatel.com"}>
           <StyledOcticon icon={MailIcon} size={20} />
         </Header.Link>
       </Header.Item>
