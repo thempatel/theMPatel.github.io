@@ -1,11 +1,9 @@
-import {
-  theme as primerTheme
-} from '@primer/components';
+import { theme as primerTheme } from '@primer/components';
 
 const baseTheme = {
-  ...primerTheme
+  ...primerTheme,
 };
 
-baseTheme.colors.black = "#0d1117";
+baseTheme.colors.black = '#0d1117';
 
 export const theme = baseTheme;

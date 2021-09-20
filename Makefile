@@ -17,3 +17,6 @@ deploy:
 
 clean:
 	rm -f ${PROJECT_ROOT}/dist/*
+
+fmt:
+	npx prettier --write .
