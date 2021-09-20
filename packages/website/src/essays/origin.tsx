@@ -65,7 +65,7 @@ const story: string[] = [
   'Naturally, I went out of my way to find as many non-stool collecting opportunities as possible,',
   'hoping that the stars would align somehow, somewhere.',
   '',
-  'Eventually, one of my team leads gave me a project she was sure would keep me busy for a while. She',
+  'Eventually, one of my team leads gave me a project I\'m sure she thought would keep me busy for a while. She',
   'was working on a project where she needed to figure out the ideal gene sequences to build an assay with',
   'and a colleague helping her with the task was going through a huge spreadsheet filled with protein',
   "references and manually tagging them with metadata from NCBI. I'm not sure what exactly led her to",
@@ -92,7 +92,7 @@ const story: string[] = [
 
 const conclusion: string[] = [
   'This anecdote is only the beginning of how I got to where I am today. I feel so fortunate to be born during',
-  'such a vibrant period of human history. One where where the democratization of knowledge has allowed many',
+  'such a vibrant period of human history. One where the democratization of knowledge has allowed many',
   'stories like mine to exist. My advice to you is this: dream big, take leaps of faith and don\'t look back.',
   'You get one life, make the most of it!'
 ];
