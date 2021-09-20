@@ -9,9 +9,12 @@ import {
   Text,
 } from '@primer/components';
 import { ExternalLinks } from './locations';
-import { HorizontalRuleIcon, MailIcon, MarkGithubIcon } from '@primer/octicons-react';
-import { BlockText } from "./BlockText";
-import { OriginStory } from "./essays/origin";
+import {
+  HorizontalRuleIcon,
+  MailIcon,
+  MarkGithubIcon,
+} from '@primer/octicons-react';
+import { OriginStory } from './essays/origin';
 
 export const Home: React.FC = () => {
   return (
@@ -22,13 +25,13 @@ export const Home: React.FC = () => {
           <BadgeRow />
         </Box>
         <Box marginBottom={4}>
-          <StyledOcticon icon={HorizontalRuleIcon} size={24} color={"antiquewhite"} />
+          <StyledOcticon
+            icon={HorizontalRuleIcon}
+            size={24}
+            color={'antiquewhite'}
+          />
         </Box>
-        <Text
-          fontFamily={'monospace'}
-          color={"antiquewhite"}
-          fontSize={16}
-        >
+        <Text fontFamily={'monospace'} color={'antiquewhite'} fontSize={16}>
           Origin.
         </Text>
         <Bio />
@@ -41,16 +44,11 @@ const Bio: React.FC = () => {
   return (
     <Flex alignItems={'center'} flexDirection={'column'}>
       <Box maxWidth={567}>
-        <BlockText
-          lines={OriginStory}
-          fontFamily={'monospace'}
-          color={"antiquewhite"}
-          fontSize={16}
-        />
+        <OriginStory />
       </Box>
     </Flex>
   );
-}
+};
 
 const Header: React.FC = () => {
   return (
@@ -70,7 +68,12 @@ const Header: React.FC = () => {
 const BioBlurb: React.FC = () => {
   return (
     <Box marginRight={32} maxWidth={275}>
-      <Heading fontFamily={'monospace'} color={'whitesmoke'} fontSize={32} mb={1}>
+      <Heading
+        fontFamily={'monospace'}
+        color={'whitesmoke'}
+        fontSize={32}
+        mb={1}
+      >
         Milan Patel
       </Heading>
       <Text fontFamily={'monospace'} color={'antiquewhite'} fontSize={20}>
