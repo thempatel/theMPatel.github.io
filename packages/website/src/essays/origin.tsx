@@ -1,7 +1,7 @@
 import React from 'react';
 import { BlockText } from '../BlockText';
 import { HorizontalRuleIcon } from '@primer/octicons-react';
-import { Flex, StyledOcticon } from '@primer/components';
+import { Box, Flex, StyledOcticon } from '@primer/components';
 
 export const OriginStory: React.FC = () => {
   return (
@@ -25,6 +25,7 @@ export const OriginStory: React.FC = () => {
         color={'antiquewhite'}
         fontSize={16}
       />
+      <Box marginBottom={200} />
     </>
   );
 };
@@ -85,13 +86,13 @@ const story: string[] = [
   "during the evenings I'd educate myself on coding and algorithms and during the day I'd get to apply the",
   "knowledge, slowly honing my craft. Through a series of epiphanies I realized that becoming a doctor wasn't",
   'what I really wanted to do with my life. I also knew that I wanted to work as a software engineer',
-  "in industry and the CDC wasn't going to help me meet that long term goal, so I left for a contract software.",
+  "in industry and the CDC wasn't going to help me meet that long term goal, so I left for a contract software",
   'gig and the rest is history.',
 ];
 
 const conclusion: string[] = [
   'This anecdote is only the beginning of how I got to where I am today. I feel so fortunate to be born during',
   'such a vibrant period of human history. One where where the democratization of knowledge has allowed many',
-  'stories like mine to exist. My advice to you is this: dream big, take leaps of faiths and don\'t look back.',
+  'stories like mine to exist. My advice to you is this: dream big, take leaps of faith and don\'t look back.',
   'You get one life, make the most of it!'
 ];
